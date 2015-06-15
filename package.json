@@ -24,6 +24,13 @@
     "webpack": "^1.7.3"
   },
   "dependencies": {
-    "react": "^0.13.0-rc2"
+    "bootstrap-sass": "~3.3.1",
+    "css-loader": "^0.14.3",
+    "file-loader": "^0.8.4",
+    "node-sass": "^3.1.2",
+    "react": "^0.13.0-rc2",
+    "sass-loader": "^1.0.2",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6"
   }
 }

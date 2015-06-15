@@ -17,14 +17,21 @@ class BookList extends React.Component {
   }
 
   render() {
-    return <div><h1>Book list</h1>
-    <table>
-    {
-      this.state.books.map((book) => {
-        return <Book data={book} />
-      })
-    }
-    </table>
+    return <div>
+    <h1>Book list</h1>
+      <table className="table-striped">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+          </tr>
+        </thead>
+        {
+          this.state.books.map((book) => {
+            return <Book data={book} />
+          })
+        }
+      </table>
     </div>;
   }
 }
