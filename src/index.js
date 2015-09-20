@@ -1,10 +1,11 @@
 import React from 'react';
-import BookList from './components/BookList';
+import ReactDOM from 'react-dom';
+import SpeakerList from './components/SpeakerList';
 
 require("./styles/application.css.sass");
 
-React.render(
-  <BookList />,
+ReactDOM.render(
+  <SpeakerList />,
   document.getElementById('body')
 );
 
