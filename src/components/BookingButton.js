@@ -13,8 +13,8 @@ export default class BookingButton extends React.Component {
   render() {
     return (
       <button
-        onClick={ () => this.props.onClick() }
         type="button"
+        onClick={ this.props.onClick }
         className={ this.className }>
           { this.text }
       </button>
